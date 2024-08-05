@@ -1,0 +1,239 @@
+.header {
+    padding: 0;
+    background-color: whitesmoke;
+    position: relative;
+    height: 5;
+}
+
+.body {
+    height: 500vh;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+    overflow: hidden;
+}
+
+.active {
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.active a {
+    float: none;
+    text-align: right;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    position: relative;
+    position: none;
+    top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.6s ease;
+}
+
+.active a:hover {
+    color: aquamarine;
+}
+
+.header h2 {
+    font-size: 20;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    bottom: 45px;
+    position: relative;
+    text-align: left;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.container image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container p {
+    text-align: center;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 30%;
+    color: whitesmoke;
+    font-family: Arial, sans-serif;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    text-decoration: none;
+    left: 500px;
+}
+
+.text-overlay p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: burlywood;
+}
+
+.text-overlay button {
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 7px 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+/* Style the search box inside the navigation bar */
+
+.active input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    border-radius: 20%;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    background-color: whitesmoke;
+}
+
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+
+@media screen and (max-width: 700px) {
+    .active a,
+    .active input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .active input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    height: 190vh;
+    background-color: #f0f0f0;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container p {
+    text-align: none;
+    text-transform: capitalize;
+    color: black;
+    display: flex;
+    font-size: small;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: 40vh;
+    cursor: pointer;
+    border-radius: 5%;
+    transition: all 0.5s ease;
+}
+
+.image-text {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+.image-cost {
+    justify-content: space-between;
+    display: flex;
+}
+
+.image-cost img {
+    max-width: 100%;
+    height: 30vh;
+    cursor: pointer;
+    border-radius: 5%;
+    transition: all 0.5s ease;
+}
+
+.image-cost p {
+    text-align: none;
+    text-transform: capitalize;
+    color: black;
+    position: relative;
+    font-size: small;
+}
+
+.image-female {
+    justify-content: space-between;
+    display: flex;
+}
+
+.image-female img {
+    max-width: 100%;
+    height: 30vh;
+    cursor: pointer;
+    border-radius: 5%;
+    transition: all 0.5s ease;
+}
+
+.image-female p {
+    text-align: none;
+    text-transform: capitalize;
+    color: black;
+    position: relative;
+    font-size: small;
+}
+
+.image-male {
+    justify-content: space-between;
+    display: flex;
+}
+
+.image-male img {
+    max-width: 100%;
+    height: 30vh;
+    cursor: pointer;
+    border-radius: 5%;
+    transition: all 0.5s ease;
+}
+
+.image-male p {
+    text-align: none;
+    text-transform: capitalize;
+    color: black;
+    position: relative;
+    font-size: small;
+}
+
+.footer {
+    background-color: darkcyan;
+    height: 14vh;
+}
+
+.footer p {
+    text-align: end;
+    position: absolute;
+    font-size: 21;
+}
